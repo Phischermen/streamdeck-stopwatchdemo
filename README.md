@@ -1,4 +1,4 @@
-# streamdeck-stopwatch
+# streamdeck-keyremapper
 A C# key remapper implementation for the Elgato Stream Deck device.
 
 ## Dependencies
