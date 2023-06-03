@@ -3,7 +3,7 @@ using CommandLine;
 using System;
 using System.Collections.Generic;
 
-namespace Stopwatch
+namespace KeyRemapper
 {
     class Program
     {

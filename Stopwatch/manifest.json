@@ -2,7 +2,7 @@
   "Actions": [
     {
       "Icon": "Images/icon",
-      "Name": "Stopwatch",
+      "Name": "Key Remapper",
       "States": [
         {
           "Image": "Images/bg",
@@ -11,19 +11,18 @@
         }
       ],
       "SupportedInMultiActions": false,
-      "Tooltip": "Stopwatch implementation with various display and behaviour settings.",
-      "UUID": "com.barraider.stopwatch",
-      "PropertyInspectorPath": "PropertyInspector/Stopwatch/Index.html"
+      "Tooltip": "Key remapper for improved ergonomics.",
+      "UUID": "com.phischermen.keyremapper",
+      "PropertyInspectorPath": "PropertyInspector/KeyRemapper/Index.html"
     }
   ],
-  "Author": "BarRaider",
-  "Description": "Stopwatch implementation with various display and behaviour settings.",
-  "Name": "Stopwatch",
+  "Author": "Phischermen",
+  "Description": "Hold down the pedal, and now your key strokes are remapped! Intended to improve the ergonomics of using a foot pedal as a modifier key.",
+  "Name": "Key Remapper",
   "Icon": "Images/pluginIcon",
-  "URL": "https://barraider.github.io/",
-  "Version": "1.1",
-  "CodePath": "com.barraider.stopwatch",
-  "Category": "BarRaider",
+  "Version": "0.0",
+  "CodePath": "com.phischermen.keyremapper",
+  "Category": "Phischermen",
   "CategoryIcon": "Images/categoryIcon",
   "OS": [
     {
@@ -36,3 +35,4 @@
     "MinimumVersion": "4.1"
   }
 }
+

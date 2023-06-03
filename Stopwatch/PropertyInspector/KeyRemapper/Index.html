@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no,minimal-ui,viewport-fit=cover">
+    <meta name=apple-mobile-web-app-capable content=yes>
+    <meta name=apple-mobile-web-app-status-bar-style content=black>
+    <title>BarRaider's Stopwatch</title>
+    <link rel="stylesheet" href="../sdpi.css">
+</head>
+<body>
+    <div class="sdpi-wrapper">
+        <details class="message info">
+            <summary>For feedback/suggestions contact me at <span class="linkspan" onclick="openWebsite()">https://BarRaider.github.io</span> </summary>
+        </details>
+
+        <div type="range" class="sdpi-item" id="PedalTapTime">
+            <div class="sdpi-item-label">Tap Time (ms)</div>
+            <div class="sdpi-item-value">
+                <span class="clickable" value="0">0</span>
+                <input class="sdProperty" type="range" min="0" max="1000" value=500>
+                <span class="clickable" value="1000">1000</span>
+            </div>
+        </div>
+    </div>
+    <script src="../sdtools.common.js"></script>
+</body>
+</html>
